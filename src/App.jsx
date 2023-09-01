@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar"
+import HeroSection from "./components/heroSection"
 
 function App() {
   return (
-    <section className="bg-gray-900">
+    <main className="bg-mainBackground">
       <Navbar/>
-    </section>
+      <HeroSection/>
+    </main>
   )
 }
-
 export default App
