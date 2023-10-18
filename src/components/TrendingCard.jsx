@@ -1,4 +1,4 @@
-export default function NFTCard({ cardImagePath, title, avatarName, avatarIconPath}) {
+export default function TrendingCard({ cardImagePath, title, avatarName, avatarIconPath}) {
   return (
     <>
       <img src={cardImagePath}></img>

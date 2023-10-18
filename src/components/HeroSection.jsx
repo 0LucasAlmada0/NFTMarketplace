@@ -1,14 +1,14 @@
 import ButtonAndIcon from "./shared/ButtonAndIcon";
-import NFTCard from "../components/NFTCard";
+import TrendingCard from "./TrendingCard";
 
 export default function HeroSection() {
   return (
-    <section className="flex mx-28 my-20 gap-8 justify-center items-center">
-      <div className="w-1/4">
+    <section className="flex mx-[10%] my-20 gap-8 justify-center items-center">
+      <div className="w-2/4">
         <h1 className="text-6xl font-bold leading-tight">
           Discover Digital art & Collect NFTs
         </h1>
-        <p className="my-6 leading-6 text-xl font-extralight">
+        <p className="my-6 mr-24 leading-6 text-xl font-extralight">
           NFT marketplace UI created with Anima for Figma. Collect, buy and sell
           art from more than 20k NFT artists.
         </p>
@@ -32,7 +32,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div>
-        <NFTCard
+        <TrendingCard
           cardImagePath={"src/assets/images/ImagePlaceholder.png"}
           title={"Space Walking"}
           avatarName={"Animakid"}
