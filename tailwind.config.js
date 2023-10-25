@@ -5,6 +5,9 @@ export default {
     extend: {
       backgroundColor:{
         'mainBackground': '#2B2B2B'
+      },
+      fontFamily:{
+        'secondaryFont': 'Space Mono'
       }
     },
   },

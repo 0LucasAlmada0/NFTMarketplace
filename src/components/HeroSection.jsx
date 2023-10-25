@@ -1,14 +1,14 @@
 import ButtonAndIcon from "./shared/ButtonAndIcon";
-import NFTCard from "../components/NFTCard";
+import TrendingCard from "./TrendingCard";
 
 export default function HeroSection() {
   return (
-    <section className="flex mx-28 my-20 gap-8 justify-center items-center">
-      <div className="w-1/4">
-        <h1 className="text-6xl font-bold leading-tight">
-          Discover Digital art & Collect NFTs
+    <section className="flex mx-[auto] my-20 gap-12 justify-center items-center">
+      <div className="w-[50%]">
+        <h1 className="text-6xl font-semibold leading-[72px]">
+          Discover Digital Art & Collect NFTs
         </h1>
-        <p className="my-6 leading-6 text-xl font-extralight">
+        <p className="my-6 mr-4 leading-[35px] text-xl font-extralight">
           NFT marketplace UI created with Anima for Figma. Collect, buy and sell
           art from more than 20k NFT artists.
         </p>
@@ -17,22 +17,22 @@ export default function HeroSection() {
           icon={"src/assets/icons/RocketLaunch.png"}
         />
         <div className="flex my-6 gap-14">
-          <div>
-            <p className="font-bold text-2xl">240k+</p>
+          <div className="flex flex-col gap-2">
+            <p className="font-secondaryFont font-bold text-3xl">240k+</p>
             <p className="text-xl font-extralight">Total Sale</p>
           </div>
-          <div>
-            <p className="font-bold text-2xl">100k+</p>
+          <div className="flex flex-col gap-2">
+            <p className="font-secondaryFont font-bold text-3xl">100k+</p>
             <p className="text-xl font-extralight">Auctions</p>
           </div>
-          <div>
-            <p className="font-bold text-2xl">240k+</p>
+          <div className="flex flex-col gap-2">
+            <p className="font-secondaryFont font-bold text-3xl">240k+</p>
             <p className="text-xl font-extralight">Artists</p>
           </div>
         </div>
       </div>
       <div>
-        <NFTCard
+        <TrendingCard
           cardImagePath={"src/assets/images/ImagePlaceholder.png"}
           title={"Space Walking"}
           avatarName={"Animakid"}
