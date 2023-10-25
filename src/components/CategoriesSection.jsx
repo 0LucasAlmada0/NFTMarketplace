@@ -9,14 +9,14 @@ export default function CategoriesSection() {
         </h2>
       </div>
       <div className="grid grid-cols-4 justify-between gap-8">
-        <CategoriesCard />
-        <CategoriesCard />
-        <CategoriesCard />
-        <CategoriesCard />
-        <CategoriesCard />
-        <CategoriesCard />
-        <CategoriesCard />
-        <CategoriesCard />
+        <CategoriesCard text={"ART"} iconPath={"https://picsum.photos/100"} imagePath={"https://picsum.photos/600?blur=10"}/>
+        <CategoriesCard text={"ART"} iconPath={"https://picsum.photos/100"} imagePath={"https://picsum.photos/600?blur=10"}/>
+        <CategoriesCard text={"ART"} iconPath={"https://picsum.photos/100"} imagePath={"https://picsum.photos/600?blur=10"}/>
+        <CategoriesCard text={"ART"} iconPath={"https://picsum.photos/100"} imagePath={"https://picsum.photos/600?blur=10"}/>
+        <CategoriesCard text={"ART"} iconPath={"https://picsum.photos/100"} imagePath={"https://picsum.photos/600?blur=10"}/>
+        <CategoriesCard text={"ART"} iconPath={"https://picsum.photos/100"} imagePath={"https://picsum.photos/600?blur=10"}/>
+        <CategoriesCard text={"ART"} iconPath={"https://picsum.photos/100"} imagePath={"https://picsum.photos/600?blur=10"}/>
+        <CategoriesCard text={"ART"} iconPath={"https://picsum.photos/100"} imagePath={"https://picsum.photos/600?blur=10"}/>
       </div>
     </section>
   );

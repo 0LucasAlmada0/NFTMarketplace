@@ -31,7 +31,7 @@ export default function Footer() {
           <p className="text-[#CCCCCC]">
             Get exclusive promotions & updates straight to your inbox.
           </p>
-          <InputComponent />
+          <InputComponent icon={"https://picsum.photos/20"} placeholder={"Enter Your Email Here"} buttonText={"Subscribe"}/>
         </div>
       </div>
       <div className="mx-[10%]">

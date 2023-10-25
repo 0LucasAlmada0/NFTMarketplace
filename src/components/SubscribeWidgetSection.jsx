@@ -13,7 +13,7 @@ export default function SubscribeWidgetSection() {
           <p className="text-2xl mt-3 mb-10 w-[60%]">
             Get Exclusive Promotions & Updates Straight To Your Inbox
           </p>
-          <InputComponent/>
+          <InputComponent icon={"https://picsum.photos/20"} placeholder={"Enter Your Email Here"} buttonText={"Subscribe"}/>
         </div>
       </div>
     </section>

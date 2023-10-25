@@ -19,18 +19,18 @@ export default function CreatorSection() {
         </div>
       </div>
       <div className="grid grid-cols-4 grid-rows-3 gap-8 text-center">
-        <CreatorsCard />
-        <CreatorsCard />
-        <CreatorsCard />
-        <CreatorsCard />
-        <CreatorsCard />
-        <CreatorsCard />
-        <CreatorsCard />
-        <CreatorsCard />
-        <CreatorsCard />
-        <CreatorsCard />
-        <CreatorsCard />
-        <CreatorsCard />
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
+        <CreatorsCard creatorImage={"https://picsum.photos/110"} creatorUsername={"RukasuArumada"} creatorTotalSales={"3.14"}/>
       </div>
     </section>
   );
