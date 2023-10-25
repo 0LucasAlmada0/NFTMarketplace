@@ -7,6 +7,7 @@ import DiscoverSection from "./components/DiscoverSection";
 import NFTHighlightSection from "./components/NFTHighlightSection";
 import HowItWorksSection from "./components/HowItWorksSection";
 import SubscribeWidgetSection from "./components/SubscribeWidgetSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <NFTHighlightSection/>
       <HowItWorksSection/>
       <SubscribeWidgetSection/>
+      <Footer/>
     </main>
   );
 }
