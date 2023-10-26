@@ -1,4 +1,4 @@
-import InputComponent from "./shared/InputComponent";
+import InputComponent from "../components/shared/InputComponent";
 
 export default function Footer() {
   return (
