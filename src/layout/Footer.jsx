@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-[10%] flex gap-20 justify-between">
         <div className="flex flex-col gap-6">
           <div className="flex gap-2 items-center">
-            <img src="https://picsum.photos/32"></img>
+            <img src="/src/assets/images/Logo.png"></img>
             <h2 className="font-bold text-2xl">NFT Marketplace</h2>
           </div>
           <p className="text-[#CCCCCC]">
@@ -14,10 +14,10 @@ export default function Footer() {
           </p>
           <p className="text-[#CCCCCC]">Join our community</p>
           <div className="flex gap-3">
-            <img src="https://picsum.photos/32" alt="Discord Logo" />
-            <img src="https://picsum.photos/32" alt="Youtube Logo" />
-            <img src="https://picsum.photos/32" alt="Twitter Logo" />
-            <img src="https://picsum.photos/32" alt="Instagram Logo" />
+            <img src="/src/assets/icons/SocialMediaIcons/DiscordLogo.png" alt="Discord Logo" />
+            <img src="/src/assets/icons/SocialMediaIcons/YoutubeLogo.png" alt="Youtube Logo" />
+            <img src="/src/assets/icons/SocialMediaIcons/TwitterLogo.png" alt="Twitter Logo" />
+            <img src="/src/assets/icons/SocialMediaIcons/InstagramLogo.png" alt="Instagram Logo" />
           </div>
         </div>
         <div className="flex flex-col gap-6">
@@ -31,7 +31,7 @@ export default function Footer() {
           <p className="text-[#CCCCCC]">
             Get exclusive promotions & updates straight to your inbox.
           </p>
-          <InputComponent icon={"https://picsum.photos/20"} placeholder={"Enter Your Email Here"} buttonText={"Subscribe"}/>
+          <InputComponent icon={"/src/assets/icons/RocketLaunch.png"} placeholder={"Enter Your Email Here"} buttonText={"Subscribe"}/>
         </div>
       </div>
       <div className="mx-[10%]">

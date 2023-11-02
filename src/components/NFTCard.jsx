@@ -5,10 +5,11 @@ export default function NFTCard({
   nftUser,
   nftPrice,
   nftHighest,
+  bgColor
 }) {
   return (
-    <div className="bg-[#3B3B3B] w-[330px] rounded-3xl">
-      <img className="rounded-t-3xl" src={nftImage}></img>
+    <div style={{backgroundColor:`${bgColor}`}} className="bg-[#3B3B3B] w-auto rounded-3xl">
+      <img className="rounded-t-3xl w-auto" src={nftImage}></img>
       <div className="p-6">
         <h2 className="text-2xl font-semibold">{nftTitle}</h2>
         <div className="flex gap-3 mb-7 mt-2">
