@@ -12,7 +12,9 @@ export default function Navbar() {
         <ul className="flex gap-12 items-center">
           <li className="font-semibold">Marketplace</li>
           <li className="font-semibold">Rankings</li>
-          <li className="font-semibold">Connect a wallet</li>
+          <Link to={'/connectWallet'}>
+            <li className="font-semibold">Connect a wallet</li>
+          </Link>
           <ButtonAndIcon
             icon={"/src/assets/icons/User.png"}
             text={"Sign Up"}
