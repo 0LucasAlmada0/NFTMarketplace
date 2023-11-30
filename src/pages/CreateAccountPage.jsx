@@ -1,10 +1,3 @@
-<<<<<<< Updated upstream
-export default function CreateAccountPage(){
-    return(
-        <h1>CREATE ACCOUT PAGE</h1>
-    )
-}
-=======
 import ButtonAndIcon from "../components/shared/ButtonAndIcon";
 
 export default function CreateAccountPage() {
@@ -48,4 +41,3 @@ export default function CreateAccountPage() {
     </section>
   );
 }
->>>>>>> Stashed changes

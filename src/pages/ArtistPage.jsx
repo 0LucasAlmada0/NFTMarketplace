@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ArtistInfo from "../components/ArtistInfo";
 import NFTCard from "../components/NFTCard";
+import NFTCardsSection from "../components/NFTCardsSection";
 
 export default function ArtistPage() {
   const [activeNavItem, setActiveNavItem] = useState('created');
@@ -50,89 +51,7 @@ export default function ArtistPage() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-8 py-20 px-[10%] bg-[#3B3B3B]">
-          <NFTCard
-            nftImage={"https://picsum.photos/1000"}
-            nftTitle={"NFT Foda"}
-            nftUser={"RukasuArumada"}
-            nftUserImage={"https://picsum.photos/20"}
-            nftPrice={"3.14"}
-            nftHighest={"5.00"}
-            bgColor={"#2B2B2B"}
-          />
-          <NFTCard
-            nftImage={"https://picsum.photos/1000"}
-            nftTitle={"NFT Foda"}
-            nftUser={"RukasuArumada"}
-            nftUserImage={"https://picsum.photos/20"}
-            nftPrice={"3.14"}
-            nftHighest={"5.00"}
-            bgColor={"#2B2B2B"}
-          />
-          <NFTCard
-            nftImage={"https://picsum.photos/1000"}
-            nftTitle={"NFT Foda"}
-            nftUser={"RukasuArumada"}
-            nftUserImage={"https://picsum.photos/20"}
-            nftPrice={"3.14"}
-            nftHighest={"5.00"}
-            bgColor={"#2B2B2B"}
-          />
-          <NFTCard
-            nftImage={"https://picsum.photos/1000"}
-            nftTitle={"NFT Foda"}
-            nftUser={"RukasuArumada"}
-            nftUserImage={"https://picsum.photos/20"}
-            nftPrice={"3.14"}
-            nftHighest={"5.00"}
-            bgColor={"#2B2B2B"}
-          />
-          <NFTCard
-            nftImage={"https://picsum.photos/1000"}
-            nftTitle={"NFT Foda"}
-            nftUser={"RukasuArumada"}
-            nftUserImage={"https://picsum.photos/20"}
-            nftPrice={"3.14"}
-            nftHighest={"5.00"}
-            bgColor={"#2B2B2B"}
-          />
-          <NFTCard
-            nftImage={"https://picsum.photos/1000"}
-            nftTitle={"NFT Foda"}
-            nftUser={"RukasuArumada"}
-            nftUserImage={"https://picsum.photos/20"}
-            nftPrice={"3.14"}
-            nftHighest={"5.00"}
-            bgColor={"#2B2B2B"}
-          />
-          <NFTCard
-            nftImage={"https://picsum.photos/1000"}
-            nftTitle={"NFT Foda"}
-            nftUser={"RukasuArumada"}
-            nftUserImage={"https://picsum.photos/20"}
-            nftPrice={"3.14"}
-            nftHighest={"5.00"}
-            bgColor={"#2B2B2B"}
-          />
-          <NFTCard
-            nftImage={"https://picsum.photos/1000"}
-            nftTitle={"NFT Foda"}
-            nftUser={"RukasuArumada"}
-            nftUserImage={"https://picsum.photos/20"}
-            nftPrice={"3.14"}
-            nftHighest={"5.00"}
-            bgColor={"#2B2B2B"}
-          />
-          <NFTCard
-            nftImage={"https://picsum.photos/1000"}
-            nftTitle={"NFT Foda"}
-            nftUser={"RukasuArumada"}
-            nftUserImage={"https://picsum.photos/20"}
-            nftPrice={"3.14"}
-            nftHighest={"5.00"}
-            bgColor={"#2B2B2B"}
-          />
-        </div>
+       <NFTCardsSection/>
       </section>
     </main>
   );

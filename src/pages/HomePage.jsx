@@ -18,6 +18,7 @@ export default function HomePage() {
       <NFTHighlightSection image={"https://picsum.photos/3000/650"} />
       <HowItWorksSection />
       <SubscribeWidgetSection />
+
     </div>
   );
 }
