@@ -3,7 +3,7 @@ import TrendingCard from "./TrendingCard";
 
 export default function HeroSection() {
   return (
-    <section className="flex mx-[auto] my-20 gap-12 justify-center items-center">
+    <section className="flex mx-[10%] my-20 gap-12 justify-center items-center">
       <div className="w-[50%]">
         <h1 className="text-6xl font-semibold leading-[72px]">
           Discover Digital Art & Collect NFTs
