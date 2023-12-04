@@ -1,7 +1,20 @@
 import ButtonAndIcon from "./shared/ButtonAndIcon";
 import TrendingCard from "./TrendingCard";
 
+import { getNfts } from "../services/dbService";
+import { useEffect, useState } from "react";
+
 export default function HeroSection() {
+  const [nft, setNft] = useState();
+
+  useEffect(() => {
+    async function pegaNft() {
+      const nft = await getNfts();
+      setNft(nft[1])
+    }
+    pegaNft()
+  }, []);
+
   return (
     <section className="flex mx-[10%] my-20 gap-12 justify-center items-center">
       <div className="w-[50%]">
@@ -33,9 +46,9 @@ export default function HeroSection() {
       </div>
       <div>
         <TrendingCard
-          cardImagePath={"src/assets/images/ImagePlaceholder.png"}
-          title={"Space Walking"}
-          avatarName={"Animakid"}
+          cardImagePath={nft?.image.stringValue}
+          title={nft?.title.stringValue}
+          avatarName={nft?.artist.stringValue}
           avatarIconPath={"src/assets/images/Avatar.png"}
         />
       </div>
